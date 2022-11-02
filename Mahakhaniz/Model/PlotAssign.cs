@@ -14,9 +14,4 @@
         public string? PermitType { get; set; }
     }
 }
-/*pa.AuctionOrderNo,pa.Quantity,pa.DurationFrom,pa.DurationTo,
-s.State,
-d.District,
-gst.SchemeType,
-rt.RoyaltyType,
-pt.PermitType*/
+

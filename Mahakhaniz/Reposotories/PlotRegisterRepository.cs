@@ -195,8 +195,8 @@ namespace Mahakhaniz.Reposotories
                 var plot = await res.ReadAsync<PlotAssign>();
                 plotAssigns = plot.ToList();
                 var pagination = await res.ReadAsync<PaginationModel>();
-                paginationModel = pagination.FirstOrDefault();
-                int last = 0;
+                paginationModel = pagination.FirstOrDefault();  
+                int last = 0;  
                 int pagecount = 0;
                 last = paginationModel.Totalpages % pagesize;
                 pagecount = paginationModel.Totalpages / pagesize;

@@ -30,9 +30,3 @@
         public List<PlotAssign>? plotAssigns { get; set; }
     }
 }
-/*pr.PlotName,pr.Address,pr.Latitude,pr.Longitude,pr.Village,
-d.District,
-pt.PlotType,
-dv.Division,
-t.Taluka,
-sd.SubDivision*/
